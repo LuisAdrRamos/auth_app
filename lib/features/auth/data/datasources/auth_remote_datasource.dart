@@ -1,6 +1,6 @@
 import 'package:supabase_flutter/supabase_flutter.dart' hide AuthException;
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import '../../../../core/error/exceptions.dart';
+import '../../../../../core/error/exceptions.dart';
 import '../models/user_model.dart';
 
 abstract class AuthRemoteDataSource {
